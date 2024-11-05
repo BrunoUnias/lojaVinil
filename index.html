@@ -6,6 +6,7 @@
     <title>Loja Vinil</title>
     <link rel="stylesheet" href="src/estilo/reset.css">
     <link rel="stylesheet" href="src/estilo/cabeçalho.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 <body>
     <header>
@@ -13,8 +14,8 @@
             <img src="src/assests/vinil.png" alt="">
             <div class="listButton">
                 <ul>
-                  <li><button type="button">Favoritos</button></li>
-                  <li><button type="button">Acessar/ Registrar</button></li>  
+                  <li><button type="button"><i class="fa-regular fa-heart"></i> Favoritos</button></li>
+                  <li><button type="button"><i class="fa-regular fa-user"></i> Acessar/ Registrar</button></li>  
                 </ul>
             </div>
         </div>
@@ -31,16 +32,21 @@
                 <li><a href="">Pré venda</a></li>
                 <li><a href="">Vale presente</a></li>
             </ul>
-            <div class="nav-search">
-                <input type="text"maxlength="800" placeholder=" Buscar por produto">
+            <div class="buttonRow">
+                <div class="nav-search">
+                    <input type="text"maxlength="800" placeholder=" Buscar por produto">
+                    <div>
+                        <button class="quadro">
+                            <img src="src/assests/search.png" alt="">
+                        </button>
+                    </div>
+                </div>
                 <div>
-                    <button class="quadro">
-                        <img src="src/assests/search.png" alt="">
-                    </button>
-                    
+                    <button class="bucart"><i class="fa-solid fa-cart-shopping"></i> R$ 0,00</button>
                 </div>
             </div>
         </nav>
+       
     </div>
     
 </body>

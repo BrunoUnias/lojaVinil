@@ -35,7 +35,7 @@ header {
 nav ul li {
     display: inline-block;
     margin: 0px 20px;
-    margin-top: 8px;
+    margin-bottom: 16px;
 
 }
 
@@ -46,36 +46,48 @@ nav a {
     color: #121212;
 }
 
+.buttonRow {
+    display: flex;
+    flex-direction: row;
+
+}
+
 .nav-search {
     display: flex;
     align-items: center;
-    width: 364px;
+    width: 367px;
     height: 48px;
     margin-left: 8px;
     border-radius: 5px;
-
-}
-
-.quadro img {
-    width: 16px;
-    height: 16px;
-    margin-top: 6px;
-    margin-left: 10px;
-    padding-right: 8px;
-
-}
-
-.nav-search input {
-    width: 362px;
-    height: 38px;
-    border-radius: 5px;
+    background: white;
     border: 1px solid #121212;
 
 }
 
+.nav-search input {
+    width: 347px;
+    height: 34px;
+    background: transparent;
+    border: none;
+    padding: 0px 100px 0px 12px;
+    color: #121212;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    outline: none;
+
+    
+}
+
+button .quadro {
+    margin-left: 4px;
+    padding-left: 3px;
+}
+
 .quadro {
-    width: 36px;
-    height: 36px;
+    width: 42px;
+    height: 42px;
+    margin-right: 3px;
     align-items: center;
     background: #018749;
     border-radius: 5px;
@@ -83,6 +95,27 @@ nav a {
     cursor: pointer;
 
 }
+
+.quadro img {
+    width: 17px;
+    height: 17px;
+
+}
+
+.bucart {
+    border-radius: 50px;
+    padding: 14px 21px 16px 21px;
+    margin-left: 14px;
+    margin-bottom: 21px;
+    align-items: center;
+    background: #018749;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: medium;
+}
+
+
 
 header img {
     filter: invert(100%);
