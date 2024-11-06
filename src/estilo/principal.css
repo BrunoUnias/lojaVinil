@@ -1,0 +1,88 @@
+main {
+    background-image: url(Disco-de-Vinil-e-agulha.webp);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.socialMedia {
+    display: block;
+    flex-direction: column;
+    position: fixed;
+
+}
+
+.socialMedia ul {
+    margin-top: 48px;
+    margin-left: 1293px;
+    justify-content: end;
+    justify-items: right;
+}
+
+.socialMedia ul li {
+    padding: 2px;
+    
+
+    
+}
+
+.qd1 {
+    width: 42px;
+    height: 42px;
+    align-items: center;
+    background-color: blue;
+    
+}
+
+.qd1 a{
+    font-size: 24px;
+    color: white;
+}
+
+.qd1 a i {
+    margin-top: 8px;
+    margin-left: 15px;
+}
+
+
+.qd2 {
+    width: 42px;
+    height: 42px;
+    align-items: center;
+    background-color: red;
+    justify-content: flex-end;
+
+}
+
+.qd2 a{
+    font-size: 24px;
+    color: white;
+}
+
+.qd2 a i {
+    margin-top: 8px;
+    margin-left: 12px;
+}
+
+
+.qd3 {
+    width: 42px;
+    height: 42px;
+    align-items: center;
+    background-color: green;
+    justify-content: flex-end;
+}
+
+.qd3 a{
+    font-size: 24px;
+    color: white;
+}
+
+.qd3 a i {
+    margin-top: 8px;
+    margin-left: 12px;
+}
+
+  

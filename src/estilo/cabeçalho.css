@@ -79,6 +79,12 @@ nav a {
     
 }
 
+div.rolagem {
+    background-color: #e6e6e6;
+	padding: 20px 4px;
+
+}
+
 button .quadro {
     margin-left: 4px;
     padding-left: 3px;
