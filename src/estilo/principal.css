@@ -33,17 +33,19 @@ main {
     height: 42px;
     align-items: center;
     background-color: blue;
+    cursor: pointer;
     
 }
 
-.qd1 a{
+.qd1 i{
     font-size: 24px;
     color: white;
 }
 
-.qd1 a i {
+.qd1 i {
     margin-top: 8px;
     margin-left: 15px;
+    
 }
 
 
@@ -85,4 +87,30 @@ main {
     margin-left: 12px;
 }
 
-  
+.menu-hidden1 {
+    width: 182px;
+    height: 44px;
+    background-color: blue;
+    position: absolute; /*necessária para o funcionamento*/
+    box-shadow: 1px 2px 3px blue;
+    right: -100%;  /*é com essa propriedade que o menu fica escondido a esquerda*/
+    transition: left .5s;
+    font-size: 24px;
+    color: white;
+    margin-bottom: 2px;
+    font-weight: bolder;
+
+}
+
+a {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+a i {
+    display: flex;
+    margin-bottom: 8px;
+}
