@@ -55,17 +55,18 @@ main {
     align-items: center;
     background-color: red;
     justify-content: flex-end;
+    cursor: pointer;
 
 }
 
-.qd2 a{
+.qd2 i {
     font-size: 24px;
     color: white;
 }
 
-.qd2 a i {
+.qd2 i {
     margin-top: 8px;
-    margin-left: 12px;
+    margin-left: 8px;
 }
 
 
@@ -75,14 +76,15 @@ main {
     align-items: center;
     background-color: green;
     justify-content: flex-end;
+    cursor: pointer;
 }
 
-.qd3 a{
+.qd3 i{
     font-size: 24px;
     color: white;
 }
 
-.qd3 a i {
+.qd3 i {
     margin-top: 8px;
     margin-left: 12px;
 }
@@ -113,4 +115,36 @@ a {
 a i {
     display: flex;
     margin-bottom: 8px;
+}
+
+.menu-hidden2 {
+    width: 182px;
+    height: 44px;
+    background-color: red;
+    position: absolute; /*necessária para o funcionamento*/
+    box-shadow: 1px 2px 3px red;
+    right: -100%;  /*é com essa propriedade que o menu fica escondido a esquerda*/
+    transition: left .5s;
+    font-size: 24px;
+    color: white;
+    margin-bottom: 2px;
+    font-weight: bolder;
+    cursor: pointer;
+
+} 
+
+.menu-hidden3 {
+    width: 182px;
+    height: 44px;
+    background-color: green;
+    position: absolute; /*necessária para o funcionamento*/
+    box-shadow: 1px 2px 3px green;
+    right: -100%;  /*é com essa propriedade que o menu fica escondido a esquerda*/
+    transition: left .5s;
+    font-size: 24px;
+    color: white;
+    margin-bottom: 2px;
+    font-weight: bolder;
+    cursor: pointer;
+
 }
