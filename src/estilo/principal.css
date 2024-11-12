@@ -1,5 +1,5 @@
 main {
-    background-image: url(Disco-de-Vinil-e-agulha.webp);
+    background-image: url(Disco1.png);
     background-repeat: no-repeat;
     height: 100vh;
     background-position: center;
@@ -147,4 +147,17 @@ a i {
     font-weight: bolder;
     cursor: pointer;
 
+}
+
+.mundo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 48px;
+
+}
+
+.mundo span {
+    font-size: 40px;
 }
