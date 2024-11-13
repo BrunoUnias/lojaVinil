@@ -7,6 +7,29 @@ main {
 
 }
 
+.loja {
+    display: flex;
+    flex-direction: row;
+    padding-top: 78px;
+
+}
+
+.contato {
+    padding: 26px 26px;
+    border-radius: 50px;
+    border: 3px solid white;
+    align-items: center;
+    background: #018749;
+    color: white;
+    cursor: pointer;
+
+}
+
+.contato i {
+    font-size: 38px;
+
+}
+
 .socialMedia {
     display: block;
     flex-direction: column;
@@ -15,7 +38,7 @@ main {
 }
 
 .socialMedia ul {
-    margin-top: 48px;
+    margin-top: 28px;
     margin-left: 1293px;
     justify-content: end;
     justify-items: right;
@@ -150,14 +173,21 @@ a i {
 }
 
 .mundo {
+    padding-left: 299px;
     display: flex;
-    align-items: center;
     flex-direction: column;
-    justify-content: space-around;
-    padding-top: 48px;
 
 }
 
 .mundo span {
-    font-size: 40px;
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.mundo h2 {
+    font-size: 30px;
+    padding-top: 20px;
+    padding-left: 125px;
+    font-weight: 700;
+    color: #818589;
 }
