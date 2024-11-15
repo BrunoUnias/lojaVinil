@@ -190,4 +190,58 @@ a i {
     padding-left: 125px;
     font-weight: 700;
     color: #818589;
+
 }
+
+.mundo h4 {
+    font-size: 22px;
+    padding-top: 40px;
+    padding-left:  185px;
+    font-weight: 700;
+    color: #121212;
+
+}
+
+.vinil {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 72px;
+
+}
+
+.vinil ul li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 8px;
+}
+
+.vinil span {
+    font-size: 18px;
+    font-weight: 600;
+    
+
+}
+
+.vinil a {
+    color: #121212;
+    cursor: pointer;
+}
+
+.vinil label {
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+
+}
+
+.listVinil {
+    background: #818589;
+    height: 184px;
+    width: 184px;
+    border-radius: 50%;
+
+}
+
+
