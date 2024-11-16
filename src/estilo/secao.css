@@ -1,0 +1,29 @@
+.grupo {
+    border-top: 1.4px solid #121212;
+    background-color: #018749;
+    width: 100%;
+    padding: 60px 4px;
+
+}
+
+.grupo section ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+li span {
+    display: flex;
+    flex-direction: column;
+    font-size: 48px;
+    font-weight: 600;
+    color: white;
+
+}
+
+.grupo li i {
+    color: white;
+    font-size: 184px;
+}
