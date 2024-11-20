@@ -26,4 +26,74 @@ li span {
 .grupo li i {
     color: white;
     font-size: 184px;
+
+}
+
+.inscrito {
+    width: 100%;
+    background: #A9A9A9 ;
+    border-top: 1.4px solid #121212;
+    padding: 60px 4px;
+
+}
+
+.inscreva {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.lancamento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.lancamento span {
+    font-size: 32px;
+
+}
+
+.lancamento p {
+    font-size:  22px;
+    color: white;
+    padding-top: 12px;
+    padding-left: 140px;
+
+}
+
+.letter {
+    flex-direction: row;
+    
+
+}
+
+.letter input {
+    width: 347px;
+    height: 34px;
+    background: transparent;
+    border: none;
+    padding: 0px 100px 0px 12px;
+    color: #121212;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    outline: none;
+
+
+}
+
+.letter .correio {
+    display: flex;
+    border-radius: 5px;
+    background: white;
+    border: 1px solid #121212;
+
+}
+
+.letter button {
+    
 }
