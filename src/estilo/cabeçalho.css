@@ -95,9 +95,9 @@ button .quadro {
     height: 42px;
     margin-right: 3px;
     align-items: center;
-    background: #018749;
+    background: transparent;
     border-radius: 5px;
-    border: 1px solid #121212;
+    border: none;
     cursor: pointer;
 
 }

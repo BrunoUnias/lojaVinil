@@ -1,0 +1,89 @@
+.vinilSecao {
+    border-top: 1.4px solid #121212;
+    background-color: #F9F6EE;
+    width: 100%;
+    padding: 60px 4px;
+    padding-bottom: 16px;
+    display: flex;
+    align-items: center;
+
+}
+
+.produto-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 62px;
+
+}
+
+.produto-vinil {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 14px;
+  
+}
+
+ .cards img {
+    width: 138px;
+
+}
+
+.cards span {
+    font-size: 24px;
+    font-weight: 700;
+    color: #121212;
+
+}
+
+button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid #131313;
+    background-color: orange;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+button i {
+    padding-right: 8px;
+    color: #F9F6EE;
+    font-size: 18px;
+
+}
+
+button .botao {
+    color: #F9F6EE;
+    font-weight: 500;
+    
+}
+
+.arrowL {
+    border: none;
+    background-color: transparent;
+    padding-left: 18px;
+
+}
+
+.arrowL img {
+    filter: invert(100%);
+    width: 32px;
+}
+
+.arrowR {
+    border: none;
+    background-color: transparent;
+    padding-right: 18px;
+
+}
+
+.arrowR img {
+    filter: invert(100%);
+    width: 32px;
+}
