@@ -22,6 +22,21 @@
  ![Static Badge](https://img.shields.io/badge/status-construção-orange) 
 
 
+### Resultado 
+
+Imagem 1
+
+<img src="src/captura/Captura de tela_1-7-2025_212336_.jpeg" alt="">
+
+Imagem 2
+
+<img src="src/captura/Captura de tela_1-7-2025_212451_.jpeg" alt="">
+
+Imagem
+
+<img src="src/captura/Captura de tela_1-7-2025_212534_.jpeg" alt="">
+
+
 ### 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
